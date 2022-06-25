@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+header{
+    background-image: url(images.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+    
+
+
+}
+a{
+    color: bisque;
+}
+li{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+ul li{
+ display: inline-block;  
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    transition: cubic-bezier 0.6s ease;
+
+}
+.logo{
+    
+    width: auto;
+    height: auto;
+    
+}
